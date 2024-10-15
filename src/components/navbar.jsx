@@ -7,10 +7,15 @@ function Navbar() {
         <nav className="navbar">
             <Link to="/" className="navbar-title"> 
                 <img src="../assets/donut logo.png"/>
-                <p>Town of Donuts</p>
+                <button>Town of Donuts</button>
             </Link>
             <div className="navbar-main">
-                <a>Roles</a>
+                <Link to="/" className="navbar-title"> 
+                    <button>Roles</button>
+                </Link>
+                <Link to="/about" className="navbar-title"> 
+                    <button>About</button>
+                </Link>
             </div> 
 
         </nav>
