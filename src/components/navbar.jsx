@@ -6,7 +6,7 @@ function Navbar() {
     return (
         <nav className="navbar">
             <Link to="/" className="navbar-title"> 
-                <img src="../assets/donut logo.png"/>
+                <img src="../assets/donut logo.png" alt="donut logo"/>
                 <button>Town of Donuts</button>
             </Link>
             <div className="navbar-main">
