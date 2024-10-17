@@ -11,7 +11,7 @@ function Navbar() {
                 <button className="navbutton">Town of Donuts</button>
             </Link>
             <div className="navbar-main">
-                <Link to="/" className="navbar-title"> 
+                <Link to="/roles" className="navbar-title"> 
                     <button className="navbutton">Roles</button>
                 </Link>
                 <Link to="/about" className="navbar-title"> 
