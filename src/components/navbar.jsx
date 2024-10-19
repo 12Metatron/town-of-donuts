@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 //import "../assets/donut logo.png";
 import "./navbar.css";
+//import "../App.css"
 
 function Navbar() {
     return (
@@ -12,10 +13,24 @@ function Navbar() {
             </Link>
             <div className="navbar-main">
                 <Link to="/roles" className="navbar-title"> 
-                    <button className="navbutton">Roles</button>
+                    <button className="navbutton">
+                        <span className="habibi-regular"> Roles</span>
+                    </button>
                 </Link>
                 <Link to="/about" className="navbar-title"> 
-                    <button className="navbutton">About</button>
+                    <button className="navbutton">
+                        <span className="habibi-regular">About</span>
+                    </button>
+                </Link>
+                <Link to="/rules" className="navbar-title"> 
+                    <button className="navbutton">
+                        <span className="habibi-regular">Rules</span>
+                    </button>
+                </Link>
+                <Link to="/achievements" className="navbar-title"> 
+                    <button className="navbutton">
+                        <span className="habibi-regular">Achievements</span>
+                    </button>
                 </Link>
             </div> 
 

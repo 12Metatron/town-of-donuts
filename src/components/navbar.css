@@ -19,12 +19,15 @@ nav {
     display: inline;
     font-size: larger;
     justify-content: space-between;
+    margin-left: 10px;
 }
 
 .navbutton {
     background-color: darkred;
     color: white;
     border-radius: 10px;
+    display: inline-block;
+    flex-direction: row;
 }
 
 #navlogo {
