@@ -24,7 +24,7 @@ function createRoleCard(role_data) {
 function Roles() {
     return (
         <>
-            <h2>Roles</h2>
+            <h1 className="title bold londrina-sketch-regular">Roles</h1>
             <dl>{role_list.map(createRoleCard)}</dl>
         </>
     );

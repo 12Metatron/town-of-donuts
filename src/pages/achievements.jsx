@@ -17,7 +17,7 @@ function createAchievementCard(achievement_data) {
 function Achievments() {
     return (
         <>
-            <h2>Achievements</h2>
+            <h1 className="title bold londrina-sketch-regular">Achievements</h1>
             <dl>{achievement_list.map(createAchievementCard)}</dl>
         </>
     );
