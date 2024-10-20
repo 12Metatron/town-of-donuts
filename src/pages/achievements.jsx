@@ -7,7 +7,7 @@ function createAchievementCard(achievement_data) {
         <AchievementCard
         key={achievement_data.id}
         role={achievement_data.role}
-        achievement={achievement_data.achievement}
+        name={achievement_data.name}
         details={achievement_data.details}
         />
 

@@ -1,0 +1,9 @@
+.achievement {
+    background-color: pink;
+    margin: 5px;
+    width: 200px;
+    border-style: groove;
+    border-color: yellowgreen;
+    border-radius: 5px;
+    /* display: flexbox; */
+}

@@ -2,13 +2,13 @@ const achievement_list = [
     {
         id: 1,
         role: "Any",
-        achievement: "Initiation",
+        name: "Initiation",
         details: "Win your first game"
     },
     {
         id:2,
         role: "Any",
-        achievement: "Novice",
+        name: "Novice",
         details: "Win 5 games"
     }
 
