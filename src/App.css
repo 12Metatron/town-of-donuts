@@ -60,7 +60,7 @@
 
 html {
     margin-top: 30px;
-    background-color: blueviolet;
+    background-image: linear-gradient(blueviolet, black);
 }
 
 #role-header {

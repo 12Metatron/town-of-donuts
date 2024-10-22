@@ -1,10 +1,9 @@
 .achievement {
-    background-color: pink;
     margin: 5px;
     margin-left: 10px;
     width: 200px;
     border-style: groove;
-    border-color: aquamarine;
+    border-color: yellowgreen;
     border-radius: 5px;
     /* display: flexbox; */
 }
@@ -26,4 +25,8 @@
 .details {
     padding-left: 5px;
     margin: 0px;
+}
+
+.Any {
+    background-color: pink;
 }

@@ -9,6 +9,7 @@ function createAchievementCard(achievement_data) {
         role={achievement_data.role}
         name={achievement_data.name}
         details={achievement_data.details}
+        alignment={achievement_data.alignment}
         />
 
     );

@@ -2,6 +2,7 @@ import React from "react";
 import "./achievementcard.css";
 
 function AchievementCard(props) {
+   // console.log(props.alignment);
     return (
         <div className={`${props.alignment} achievement`}>
             <dt>
