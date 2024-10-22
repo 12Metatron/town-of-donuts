@@ -1,5 +1,7 @@
 # Town of Donuts
-Brief explanation on what the folders and files mean
+Brief explanation of what the folders and files mean
+## Assets
+Contains all the image files
 ## Data
 Contains js files for achievements and roles. Edit those files to change that data
 ## Components
