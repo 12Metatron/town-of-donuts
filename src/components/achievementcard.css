@@ -13,6 +13,17 @@
     text-decoration: underline;
     font-weight: 800;
     font-size: x-large;
-    margin: 5px 10px 2px 40px;
+    margin: 5px 10px 2px 3px;
     align-self: center;
+}
+
+.rolerequirement {
+    padding-left: 5px;
+    margin: 0px;
+    font-size: medium;
+}
+
+.details {
+    padding-left: 5px;
+    margin: 0px;
 }

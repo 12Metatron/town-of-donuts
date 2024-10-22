@@ -63,3 +63,14 @@ html {
     background-color: blueviolet;
 }
 
+#role-header {
+    color: whitesmoke;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+#achievement-header {
+    color: antiquewhite;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
