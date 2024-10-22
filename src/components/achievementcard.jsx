@@ -3,11 +3,13 @@ import "./achievementcard.css";
 
 function AchievementCard(props) {
     return (
-        <div className="achievement ${ props.alignment }">
+        <div className="achievement ${ props.role }">
             <dt>
-                <span className="rolename">Role Requirement: {props.role}</span>
-                <span className="name"><br/> Name: {props.name}</span>
-                <span className="details"><br/>Details: {props.details}</span>
+                <p className="damion-regular name">{props.name}</p>
+                <span className="rolename">
+                    <span className="bold">Role Requirement:</span> {props.role}</span>
+                <span className="details">
+                    <br/><span className="bold">Details:</span> {props.details}</span>
             </dt>
         </div>
     );

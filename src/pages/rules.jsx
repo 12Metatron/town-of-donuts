@@ -24,10 +24,48 @@ function Rules() {
                 <span className="bold">Last will and a Death note</span>
                 (if applicable) to the announcement channel.  The dead will then be sent to The Graveyard.</p>
             <h2 className="subtitle habibi-regular">Last Will & Death Note</h2>
+            <p>
+                Players may ask for a seperate thread in order to keep things seperate from their private channel
+                <br/><br/>
+                <span className="bold">The Last Will</span> is given to each player and is shown to the Town upon that player's death. It has a 400 character limit. A player's Last Will often includes critical information and is updated by each player as the game goes on. 
+                <br/><br/>
+                <span className="bold">A Death Note</span> is a piece of paper shown to the Town after a killing role other than Town Killing kills somebody, such as a Serial Killer or Mafioso. The Jailor has a separate Death Note but with multiple select choices. (400 character limit)
+            </p>
             <h2 className="subtitle habibi-regular">Lynching</h2>
+            <p>Lynching is an action that can be performed by anyone during the day phase of the game. It involves a player being voted onto the gallows and then being voted as to whether they are Guilty or Innocent.</p>
             <h3 className="subtitle habibi-regular">Accusing</h3>
+            <p>Players must input the following command in any channel to put someone on trial;
+                <br/><span className="g-highlight">!nominate [player] </span>
+                <br/>Example: !nominate Jeff<br/>
+                This command will send a message to the announcement channel in the format of;
+                <span className="bold"> TRIAL NOMINATION</span> AllSeeingDonut nominates Jeff
+                
+                Players will then react to this message with a ✅  or a ❌
+                <br/><br/>
+                In order to successfully execute someone, votes must be at least 50% of the living players
+                eg. if there are 12 players
+                if ✅ receives 6 votes, Jeff will be executed at phase change.
+                if ✅  receives 5 votes, Jeff will NOT be executed.
+                <br/><br/>
+                Multiple nomination may happen during the day phase.<br/>
+                <span className="bold">Players may only have 1 vote total and one nomination</span><br/>
+                If a player has more than 1 vote on a nomination during the trial, the vote will go to the first nomination in that phase.
+                <br/><br/>
+                <span className="bold">Nominations will close 2 hours before phase change</span>
+                <br/><br/>
+                In the rare situation where 2 players exceed 50% of votes for execution, the player with the most votes will be executed. 
+                If there is a tie for votes, the first player to be nominated will be executed.
+            </p>
             <h2 className="subtitle habibi-regular">Whispers</h2>
+            <p>
+                This is the equivalent of making a private channel with <span className="bold">1 other person.</span> <br/>
+                Instructions on the command to do this are explained by entering <span className="g-highlight">!whisper</span></p>
             <h2 className="subtitle habibi-regular">Submitting Actions</h2>
+            <p>
+                An action submission command has been added to this game. <br/>
+                <span className="bold">Players must submit actions by entering <span className="g-highlight">!action [details]</span> in their private channel</span>
+            </p>
+            
             <h2 className="subtitle habibi-regular">Win Conditions</h2>
             <p> All roles will have a mention of your own individual win condition </p>
             <h2 className="subtitle habibi-regular">Coven Priority</h2>

@@ -1,9 +1,18 @@
 .achievement {
     background-color: pink;
     margin: 5px;
+    margin-left: 10px;
     width: 200px;
     border-style: groove;
-    border-color: yellowgreen;
+    border-color: aquamarine;
     border-radius: 5px;
     /* display: flexbox; */
+}
+
+.name {
+    text-decoration: underline;
+    font-weight: 800;
+    font-size: x-large;
+    margin: 5px 10px 2px 40px;
+    align-self: center;
 }

@@ -17,11 +17,11 @@ function Navbar() {
                         <span className="habibi-regular"> Roles</span>
                     </button>
                 </Link>
-                <Link to="/about" className="navbar-title"> 
+                {/* <Link to="/about" className="navbar-title"> 
                     <button className="navbutton">
                         <span className="habibi-regular">About</span>
                     </button>
-                </Link>
+                </Link> */}
                 <Link to="/rules" className="navbar-title"> 
                     <button className="navbutton">
                         <span className="habibi-regular">Rules</span>
