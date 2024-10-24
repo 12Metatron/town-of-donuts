@@ -1,10 +1,12 @@
 .achievement {
     margin: 5px;
     margin-left: 10px;
-    width: 200px;
+    width: 230px;
     border-style: groove;
     border-color: yellowgreen;
     border-radius: 5px;
+    position: relative;
+    float: left;
     /* display: flexbox; */
 }
 

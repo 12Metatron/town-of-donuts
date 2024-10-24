@@ -4,6 +4,8 @@
     width: 300px;
     border-radius: 6px;
     border-style: groove;
+    position: relative;
+    float: left;
 }
 
 .special-body {
