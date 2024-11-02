@@ -1,6 +1,7 @@
 nav {
 	background-color: #9b59b6;
     padding-left: 10px;
+    margin-left: -10px;
     top: 0;
     position: fixed;
     flex-direction: row;
