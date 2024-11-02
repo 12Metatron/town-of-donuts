@@ -1,3 +1,4 @@
+/* eslint jsx-a11y/accessible-emoji: "off" */
 import React from "react";
 
 function Rules() {
