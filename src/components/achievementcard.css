@@ -1,6 +1,5 @@
 .achievement {
     margin: 5px;
-    margin-left: 10px;
     padding-bottom: 8px;
     width: 230px;
     border-style: groove;
@@ -32,4 +31,10 @@
 
 .Any {
     background-color: pink;
+}
+
+.achievements {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    margin: auto 10px;
 }

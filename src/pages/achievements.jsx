@@ -5,11 +5,11 @@ import AchievementCard from "../components/achievementcard";
 function createAchievementCard(achievement_data) {
     return (
         <AchievementCard
-        key={achievement_data.id}
-        role={achievement_data.role}
-        name={achievement_data.name}
-        details={achievement_data.details}
-        alignment={achievement_data.alignment}
+            key={achievement_data.id}
+            role={achievement_data.role}
+            name={achievement_data.name}
+            details={achievement_data.details}
+            alignment={achievement_data.alignment}
         />
 
     );
@@ -19,7 +19,7 @@ function Achievments() {
     return (
         <>
             <h1 id="achievement-header" className="title bold londrina-sketch-regular">Achievements</h1>
-            <dl>{achievement_list.map(createAchievementCard)}</dl>
+            <dl className="achievements">{achievement_list.map(createAchievementCard)}</dl>
         </>
     );
 }
