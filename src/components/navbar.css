@@ -1,5 +1,5 @@
 nav {
-	background-color: #9b59b6;
+    background-color: #9b59b6;
     padding-left: 10px;
     margin-left: -10px;
     top: 0;
@@ -46,4 +46,8 @@ nav {
     margin: 0px;
     margin-bottom: -10px;
     padding: 0px;
+}
+
+.active {
+    background-color: red;
 }
