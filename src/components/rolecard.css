@@ -23,8 +23,6 @@
     margin-bottom: 4px;
 }
 
-
-
 .rolename {
     font-size: x-large;
     align-self: center;
@@ -46,9 +44,12 @@
     background-color: beige;
 }
 
+ul {
+    /* 1rem aligns it with the rest of the text, change the 5px part to move it more to the right */
+    padding-left: calc(1rem + 5px);
+}
 
-p {
-    padding-left: 5px;
+.role li {
     margin-bottom: 10px;
     margin-top: 0px;
 }
